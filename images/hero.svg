@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" preserveAspectRatio="xMidYMid slice" role="img" aria-label="广西喀斯特山水与金色梯田插画">
+  <defs>
+    <!-- 天空渐变：墨绿 → 暖金 -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f3a2c"/>
+      <stop offset="30%" stop-color="#1f5c42"/>
+      <stop offset="52%" stop-color="#4a8a63"/>
+      <stop offset="68%" stop-color="#b98f4a"/>
+      <stop offset="80%" stop-color="#eeb45c"/>
+      <stop offset="100%" stop-color="#f6c86e"/>
+    </linearGradient>
+
+    <!-- 太阳光晕 -->
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff3cf" stop-opacity="0.95"/>
+      <stop offset="28%" stop-color="#f5cf7a" stop-opacity="0.55"/>
+      <stop offset="65%" stop-color="#eab254" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#eab254" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 水面反光渐变 -->
+    <linearGradient id="waterGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6d98a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#eab254" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- 梯田渐变 -->
+    <linearGradient id="terrace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e5c46"/>
+      <stop offset="100%" stop-color="#123228"/>
+    </linearGradient>
+
+    <!-- 薄雾 -->
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fdf3dd" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 天空 -->
+  <rect width="1600" height="560" fill="url(#sky)"/>
+
+  <!-- 太阳光晕与太阳（从山脊后升起） -->
+  <circle cx="800" cy="268" r="250" fill="url(#sunGlow)"/>
+  <circle cx="800" cy="266" r="42" fill="#ffe9a8"/>
+  <circle cx="800" cy="266" r="32" fill="#fff6d8"/>
+
+  <!-- 天空数字节点（数智赋能意象） -->
+  <g stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.4" fill="none">
+    <path d="M240,128 L380,96 L530,140"/>
+    <path d="M530,140 L660,104"/>
+    <path d="M660,104 L800,126"/>
+    <path d="M800,126 L980,104"/>
+    <path d="M980,104 L1130,140 L1270,118"/>
+    <path d="M1270,118 L1420,136"/>
+  </g>
+  <g fill="#e8a33d">
+    <circle cx="240" cy="128" r="4.5" opacity="0.9"/>
+    <circle cx="380" cy="96" r="3.5" opacity="0.7"/>
+    <circle cx="530" cy="140" r="5" opacity="0.95"/>
+    <circle cx="660" cy="104" r="3.5" opacity="0.7"/>
+    <circle cx="800" cy="126" r="4.5" opacity="0.9"/>
+    <circle cx="980" cy="104" r="3.5" opacity="0.7"/>
+    <circle cx="1130" cy="140" r="5" opacity="0.95"/>
+    <circle cx="1270" cy="118" r="4" opacity="0.8"/>
+    <circle cx="1420" cy="136" r="4.5" opacity="0.9"/>
+  </g>
+  <!-- 信号弧线 -->
+  <g stroke="#e8a33d" stroke-opacity="0.5" stroke-width="2" fill="none">
+    <path d="M530,140 A60,60 0 0 1 545,88"/>
+    <path d="M530,140 A92,92 0 0 1 560,70"/>
+  </g>
+
+  <!-- 飞鸟 -->
+  <g stroke="#ffffff" stroke-opacity="0.55" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M1010,168 q7,-7 14,0 q7,-7 14,0"/>
+    <path d="M1080,150 q6,-6 12,0 q6,-6 12,0"/>
+    <path d="M1150,178 q5,-5 10,0 q5,-5 10,0"/>
+    <path d="M1230,158 q5,-5 10,0 q5,-5 10,0"/>
+  </g>
+
+  <!-- 远山峰林（太阳从其后升起） -->
+  <path d="M0,352 C120,308 220,290 330,296 C420,302 470,318 560,318 C660,318 730,302 830,306 C930,310 1000,316 1100,312 C1200,308 1280,294 1380,292 C1460,290 1540,302 1600,310 L1600,366 L0,366 Z" fill="#5e8a6c" opacity="0.78"/>
+
+  <!-- 薄雾带 -->
+  <ellipse cx="800" cy="360" rx="900" ry="24" fill="url(#mist)"/>
+  <ellipse cx="480" cy="378" rx="720" ry="16" fill="url(#mist)" opacity="0.7"/>
+
+  <!-- 中景峰林 -->
+  <path d="M0,380 C130,340 240,324 350,330 C460,336 540,352 650,354 C760,356 840,336 950,332 C1060,328 1140,348 1250,350 C1360,352 1460,340 1600,344 L1600,388 L0,388 Z" fill="#3f7a5e" opacity="0.85"/>
+
+  <!-- 近处峰林 -->
+  <path d="M0,400 C90,378 170,362 250,364 C330,366 380,382 470,384 C560,386 620,366 700,362 C790,358 830,378 930,380 C1030,382 1090,368 1180,366 C1270,364 1350,382 1440,384 C1510,386 1570,380 1600,378 L1600,406 L0,406 Z" fill="#29543f"/>
+
+  <!-- 水面（含太阳倒影） -->
+  <rect x="0" y="406" width="1600" height="40" fill="#1d4535"/>
+  <g fill="url(#waterGlow)">
+    <rect x="778" y="408" width="44" height="36" rx="3" opacity="0.85"/>
+    <rect x="790" y="410" width="20" height="34" rx="2" opacity="0.7"/>
+    <rect x="796" y="412" width="8" height="30" rx="2" opacity="0.55"/>
+  </g>
+  <!-- 水面波光 -->
+  <g stroke="#eab254" stroke-opacity="0.28" stroke-width="1.4" fill="none">
+    <path d="M300,418 q10,-4 20,0 q10,-4 20,0"/>
+    <path d="M540,426 q8,-3 16,0 q8,-3 16,0"/>
+    <path d="M1060,414 q10,-4 20,0 q10,-4 20,0"/>
+    <path d="M1240,428 q8,-3 16,0 q8,-3 16,0"/>
+    <path d="M140,430 q8,-3 16,0 q8,-3 16,0"/>
+  </g>
+
+  <!-- 前景梯田 -->
+  <path d="M0,446 C200,438 400,440 600,444 C800,448 1000,446 1200,444 C1400,442 1520,444 1600,446 L1600,560 L0,560 Z" fill="url(#terrace)"/>
+  <!-- 梯田轮廓线 -->
+  <g stroke="#d9a441" stroke-opacity="0.4" stroke-width="1.6" fill="none">
+    <path d="M0,470 C220,460 440,464 680,470 C920,476 1180,472 1600,466"/>
+    <path d="M0,496 C240,486 500,492 760,498 C1020,504 1300,498 1600,492"/>
+    <path d="M0,522 C260,512 540,520 820,526 C1100,532 1380,526 1600,520"/>
+    <path d="M0,546 C280,538 580,544 860,549 C1140,554 1400,550 1600,546"/>
+  </g>
+  <!-- 梯田金色反光点缀 -->
+  <g fill="#d9a441" opacity="0.35">
+    <rect x="330" y="464" width="120" height="4" rx="2"/>
+    <rect x="1050" y="490" width="150" height="4" rx="2"/>
+    <rect x="560" y="516" width="90" height="4" rx="2"/>
+    <rect x="900" y="542" width="130" height="4" rx="2"/>
+  </g>
+  <!-- 田间小路 -->
+  <path d="M1240,560 C1220,522 1235,492 1260,472 C1285,452 1295,442 1300,440" stroke="#0e2a20" stroke-width="10" fill="none" opacity="0.85"/>
+  <path d="M1240,560 C1220,522 1235,492 1260,472 C1285,452 1295,442 1300,440" stroke="#c99a4d" stroke-width="2.5" fill="none" opacity="0.5" stroke-dasharray="10 14"/>
+</svg>
