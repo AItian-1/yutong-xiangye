@@ -804,7 +804,7 @@ blockquote .quote-src {
 .photo-grid.quad { grid-template-columns: repeat(4, 1fr); }
 .photo-grid.triple { grid-template-columns: repeat(3, 1fr); }
 .photo-grid.double { grid-template-columns: repeat(2, 1fr); }
-.photo-grid.single { grid-template-columns: 1fr; }
+.photo-grid.single { grid-template-columns: 1fr; max-width: 900px; margin: 0 auto; }
 
 .photo-grid img {
     width: 100%;
